@@ -1,0 +1,40 @@
+.swiper-slide {
+  height: 100%; /* Make each slide take full height */
+  display: flex; /* Optional: Center content */
+  justify-content: center; /* Optional: Center content */
+  align-items: center; /* Optional: Center content */
+}
+
+/* Style for all slides */
+.swiper-container .slide-img {
+  transition: transform 0.3s ease;
+}
+
+/* Style for the active slide (slightly larger) */
+.swiper-slide-active .slide-img {
+  border: 4px solid #0cb8b6;
+  transform: scale(1.5); /* Adjust the scale to make the active slide bigger */
+}
+.swiper {
+  height: 13rem;
+}
+.swiper-container {
+  width: 70%;
+  margin: 25px auto 150px auto;
+}
+
+.swiper-pagination-bullet {
+  background-color: white !important;
+  border: 1px solid #0a7b7a !important;
+  border-radius: 50% !important;
+  padding: 1px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #0cb8b6 !important;
+}
+
+.swiper-pagination {
+  text-align: center;
+  bottom: 10px !important;
+}

@@ -1,0 +1,8 @@
+.w-card {
+  width: 13rem;
+}
+@media screen and (max-width: 576px) {
+  .w-card {
+    width: 100%;
+  }
+}

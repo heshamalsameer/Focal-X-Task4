@@ -1,0 +1,35 @@
+.testimonial {
+  background-color: #eee;
+  margin: 40px 0 70px !important;
+}
+.img {
+  width: 60px;
+  height: 60px;
+  bottom: -35px;
+}
+.qot {
+  /* font-size: 75px; */
+  font-weight: bold;
+}
+.comm {
+  color: rgb(153, 216, 216);
+}
+.firstcomm {
+  color: rgb(153, 216, 216);
+  transform: rotate(180deg);
+}
+.name {
+  bottom: -60px;
+}
+.job {
+  bottom: -90px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #918e8e;
+}
+@media screen and (max-width: 992px) {
+  .testimonial {
+    background-color: #eee;
+    margin: 40px auto 70px auto !important;
+  }
+}

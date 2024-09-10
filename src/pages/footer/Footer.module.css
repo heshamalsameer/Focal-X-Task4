@@ -1,0 +1,16 @@
+.footer {
+  background-color: #dfdddd;
+}
+.contactIcon {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border: solid 2px black;
+  border-radius: 50%;
+}
+.phone {
+  font-weight: bold;
+}
+.bootstarap {
+  color: #3fbbc0;
+}

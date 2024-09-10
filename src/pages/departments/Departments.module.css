@@ -1,0 +1,30 @@
+.menu {
+  color: black;
+  font-weight: bold;
+  line-height: 40px;
+}
+.select {
+  color: aqua;
+}
+.menu li {
+  position: relative;
+}
+.menu li::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #eee;
+  right: 0;
+}
+.menu .select::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: aqua;
+  right: 0;
+}
+.header {
+  color: #6b6b6b;
+}

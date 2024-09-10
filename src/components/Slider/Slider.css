@@ -1,0 +1,29 @@
+.h-vw {
+  height: 40vw;
+}
+.cars button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: white !important;
+}
+.cars .active {
+  background-color: var(--main-color) !important;
+}
+.cars a {
+  opacity: 1 !important;
+}
+.bg-whi {
+  background-color: #ecf0f5;
+}
+@media screen and (min-width: 576px) {
+  .cars img {
+    width: 100%;
+  }
+  .cars {
+    height: 40vw;
+  }
+}
+.titleSlider {
+  border-top: 4px solid var(--main-color);
+}

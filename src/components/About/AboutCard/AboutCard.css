@@ -1,0 +1,8 @@
+.w-aboutcard {
+  width: 16rem;
+}
+@media screen and (max-width: 576px) {
+  .w-aboutcard {
+    width: 100%;
+  }
+}

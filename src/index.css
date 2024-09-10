@@ -1,0 +1,41 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+  --main-color: #3fbbc0;
+}
+.bg-maincolor {
+  background-color: var(--main-color);
+}
+.text-maincolor {
+  color: var(--main-color);
+}
+
+ul,
+ul li a {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  line-height: 2;
+  color: rgb(104, 102, 102);
+}
+.carousel-indicators {
+  bottom: -40px !important;
+}
+.carousel-indicators .active {
+  background-color: aqua !important;
+}
+.carousel-indicators button {
+  margin-top: 100px !important;
+  border: solid 2px aqua !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+}
+.testmi .carousel-control-next {
+  display: none;
+}
+.testmi .carousel-control-prev {
+  display: none;
+}
